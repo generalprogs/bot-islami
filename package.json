@@ -1,13 +1,19 @@
 {
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "16.x"
+  },
   "dependencies": {
+    "dotenv" : "^16.4.5",
+    "discord.js": "^14.14.1",
     "@discordjs/rest": "^1.7.1",
     "@discordjs/voice": "^0.16.1",
     "adhan": "^4.4.3",
     "ascii-table": "^0.0.9",
     "azkar": "^1.0.2",
-    "better-sqlite3": "^8.4.0",
     "canvas": "^2.11.2",
-    "discord.js": "^14.11.0",
     "distube": "^4.1.1",
     "ffmpeg": "^0.0.4",
     "ffmpeg-static": "^5.2.0",
