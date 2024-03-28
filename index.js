@@ -99,7 +99,7 @@ setInterval(async() => {
 			await room.send({embeds : [embed]})
 		}
 	})
-}, 600_000);
+}, 600000);
 
 
 /**
@@ -516,7 +516,7 @@ client.on('messageCreate', async message => {
         const messageSent = await message.reply({ embeds: [embed], components: [row] });
 
         const filter = (i) => i.user.id === message.author.id;
-        const collector = message.channel.createMessageComponentCollector({ componentType: ComponentType.Button, filter, time: 10_000 });
+        const collector = message.channel.createMessageComponentCollector({ componentType: ComponentType.Button, filter, time: 10000 });
 
         collector.on('collect', async interaction => {
 			click = true;
